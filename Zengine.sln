@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandBox", "SandBox\SandBox.vcxproj", "{29C3AAF0-3F4D-4A9A-A16D-82F7D6A6062F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zengine", "Zengine\Zengine.vcxproj", "{C9115075-0DE4-4D70-B6FC-21F87FC6AF11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9115075-0DE4-4D70-B6FC-21F87FC6AF11}.Debug|x64.ActiveCfg = Debug|x64
+		{C9115075-0DE4-4D70-B6FC-21F87FC6AF11}.Debug|x64.Build.0 = Debug|x64
+		{C9115075-0DE4-4D70-B6FC-21F87FC6AF11}.Release|x64.ActiveCfg = Release|x64
+		{C9115075-0DE4-4D70-B6FC-21F87FC6AF11}.Release|x64.Build.0 = Release|x64
+		{29C3AAF0-3F4D-4A9A-A16D-82F7D6A6062F}.Debug|x64.ActiveCfg = Debug|x64
+		{29C3AAF0-3F4D-4A9A-A16D-82F7D6A6062F}.Debug|x64.Build.0 = Debug|x64
+		{29C3AAF0-3F4D-4A9A-A16D-82F7D6A6062F}.Release|x64.ActiveCfg = Release|x64
+		{29C3AAF0-3F4D-4A9A-A16D-82F7D6A6062F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC9D4BDF-F9AE-4032-B2EA-78F09BA80924}
+	EndGlobalSection
+EndGlobal
