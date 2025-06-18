@@ -1,6 +1,6 @@
 #include "Application.h"
-#include "Events/WindowEvent.h"
-#include "Log.h"
+#include "Zengine/Events/ApplicationEvent.h"
+#include "Zengine/Log.h"
 
 namespace Zengine
 {

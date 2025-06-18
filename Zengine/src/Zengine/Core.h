@@ -10,4 +10,8 @@
 	#error Zengine only supports Windows (for now)!
 #endif
 
+#include <string>
+#include <functional>
+#include <sstream>
+
 #define BIT(x) (1 << x)

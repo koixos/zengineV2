@@ -27,11 +27,11 @@ namespace Zengine
 #define ZN_CORE_INFO(...)	::Zengine::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define ZN_CORE_WARN(...)	::Zengine::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define ZN_CORE_ERROR(...)	::Zengine::Log::GetCoreLogger()->error(__VA_ARGS__)
-#define ZN_CORE_FATAL(...)	::Zengine::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+#define ZN_CORE_CRITICAL(...)	::Zengine::Log::GetCoreLogger()->critical(__VA_ARGS__)
 
 // Client log macros
 #define ZN_TRACE(...)   ::Zengine::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define ZN_INFO(...)	::Zengine::Log::GetClientLogger()->info(__VA_ARGS__)
 #define ZN_WARN(...)	::Zengine::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define ZN_ERROR(...)	::Zengine::Log::GetClientLogger()->error(__VA_ARGS__)
-#define ZN_FATAL(...)	::Zengine::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define ZN_CRITICAL(...)	::Zengine::Log::GetClientLogger()->critical(__VA_ARGS__)

@@ -157,7 +157,6 @@
     <ClInclude Include="src\Zengine\Events\Event.h" />
     <ClInclude Include="src\Zengine\Events\KeyEvent.h" />
     <ClInclude Include="src\Zengine\Events\MouseEvent.h" />
-    <ClInclude Include="src\Zengine\Events\WindowEvent.h" />
     <ClInclude Include="src\Zengine\Log.h" />
   </ItemGroup>
   <ItemGroup>
