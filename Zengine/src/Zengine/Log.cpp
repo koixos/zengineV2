@@ -1,3 +1,4 @@
+#include "znpch.h"
 #include "Log.h"
 
 namespace Zengine

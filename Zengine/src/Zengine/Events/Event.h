@@ -1,5 +1,6 @@
 #pragma once
 
+#include <znpch.h>
 #include "Zengine/Core.h"
 
 namespace Zengine
@@ -75,6 +76,7 @@ namespace Zengine
 
 	inline std::ostream& operator<<(std::ostream& os, const Event& e)
 	{
-		return os << e.ToString();
+		os << e.ToString();
+		return os;
 	}
 }

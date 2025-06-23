@@ -43,3 +43,11 @@
 
 - Premake ile compilation işlemini de hallettim. Şimdi sırada bir "event system" kurmak var. Bunun amacı user herhangi bir input girdiğinde (mouse, keyboard) ya da window'larla bir işlem yapmak istediğinde (open, close, resize, etc.), bu işlemleri asıl uygulamadan ayrı olarak işleyebilmek. Yani engine bir yana bu event system engine'den ayrı bir şekilde oluşturulmazsa proje büyüdüğünde bana daha fazla problem oluşturacak.
     - İleride "buffering" yaparak gelen event'leri bir queue'ya koymak ve belli bir frame sonra işlemek daha doğru olabilir.
+
+- Şimdi sırada bir window başlatmak var. Bunun için ilk versiyonda yaptığım gibi OpenGL kütüphanesi olan GLFW kullanacağım.
+    - [GLFW](https://github.com/glfw/glfw)
+
+## 20.06.2025
+- Kaldığım yerden devam ediyorum window başlatmak işine.
+    - Yaptığım aslında "window abstraction" oluşturmak çünkü ben bu engine'in cross-platform olmasını istiyorum. Dolayısıyla bir abstraction oluşturup sonra her platform için bu interface'i implemente etmem lazım. Örnek vermek gerekirse Windows için ileride OpenGL kullanmak istemeyebilirim çünkü Windows'un kendi API'ı olan Win32 doğal olarak Windows için daha iyi bir seçenek. Aynı şekilde böyle platform-dependent customization'lar yapmak isteyebilirim, kimi özelliği sadece Linux için eklerim mesela ama hepsi ortak bir interface kullanırsa derli toplu, düzenli bir yapıda kalabilirim.
+    - Şu anlık sadece Windows için implemente edildi interface. 

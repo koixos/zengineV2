@@ -10,6 +10,11 @@ workspace "Zengine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "Zengine/vendor/GLFW/include"
+
+include "Zengine/vendor/glfw"
+
 project "Zengine"
 	location "Zengine"
 	kind "SharedLib"
@@ -17,6 +22,9 @@ project "Zengine"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	
+	pchheader "znpch.h"
+	pchsource "Zengine/src/znpch.cpp"
 
 	files
 	{
@@ -28,13 +36,20 @@ project "Zengine"
 	{
 		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}",
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib",
 	}
 
 	filter "system:windows"
+		buildoptions "/utf-8"
 		cppdialect "C++17"
 		staticruntime "On"
 		systemversion "latest"
-		buildoptions "/utf-8"
 
 		defines
 		{
