@@ -50,4 +50,7 @@
 ## 20.06.2025
 - Kaldığım yerden devam ediyorum window başlatmak işine.
     - Yaptığım aslında "window abstraction" oluşturmak çünkü ben bu engine'in cross-platform olmasını istiyorum. Dolayısıyla bir abstraction oluşturup sonra her platform için bu interface'i implemente etmem lazım. Örnek vermek gerekirse Windows için ileride OpenGL kullanmak istemeyebilirim çünkü Windows'un kendi API'ı olan Win32 doğal olarak Windows için daha iyi bir seçenek. Aynı şekilde böyle platform-dependent customization'lar yapmak isteyebilirim, kimi özelliği sadece Linux için eklerim mesela ama hepsi ortak bir interface kullanırsa derli toplu, düzenli bir yapıda kalabilirim.
-    - Şu anlık sadece Windows için implemente edildi interface. 
+    - Şu anlık sadece Windows için implemente edildi interface.
+
+## 06.07.2025
+- 

@@ -164,7 +164,6 @@
     <ClInclude Include="src\Zengine\Events\Event.h" />
     <ClInclude Include="src\Zengine\Events\KeyEvent.h" />
     <ClInclude Include="src\Zengine\Events\MouseEvent.h" />
-    <ClInclude Include="src\Zengine\Events\WindowEvent.h" />
     <ClInclude Include="src\Zengine\Log.h" />
     <ClInclude Include="src\Zengine\Window.h" />
     <ClInclude Include="src\znpch.h" />
@@ -178,7 +177,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="vendor\glfw\GLFW.vcxproj">
+    <ProjectReference Include="vendor\GLFW\GLFW.vcxproj">
       <Project>{154B857C-0182-860D-AA6E-6C109684020F}</Project>
     </ProjectReference>
   </ItemGroup>

@@ -13,7 +13,7 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 IncludeDir = {}
 IncludeDir["GLFW"] = "Zengine/vendor/GLFW/include"
 
-include "Zengine/vendor/glfw"
+include "Zengine/vendor/GLFW"
 
 project "Zengine"
 	location "Zengine"

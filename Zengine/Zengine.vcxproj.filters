@@ -40,9 +40,6 @@
     <ClInclude Include="src\Zengine\Events\MouseEvent.h">
       <Filter>Zengine\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\Zengine\Events\WindowEvent.h">
-      <Filter>Zengine\Events</Filter>
-    </ClInclude>
     <ClInclude Include="src\Zengine\Log.h">
       <Filter>Zengine</Filter>
     </ClInclude>
